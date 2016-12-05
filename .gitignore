@@ -3,6 +3,7 @@ __pycache__/
 data/
 *.py[cod]
 *$py.class
+submission_*
 
 # C extensions
 *.so

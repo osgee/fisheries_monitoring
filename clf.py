@@ -239,3 +239,8 @@ if __name__ == '__main__':
     info_string, models = run_cross_validation_create_models(num_folds)
     run_cross_validation_process_test(info_string, models)
 
+
+group = {'ljz': 17, 'ft': 17, 'ys': 12, 'wrx': 12, 'yd': 18}
+discount = 62/sum(group.values())
+for name in group.keys():
+    print(name, group[name] * discount)
