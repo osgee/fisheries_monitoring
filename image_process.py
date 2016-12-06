@@ -57,6 +57,7 @@ def match(i, j):
         cv2.imshow("Img1", img_crop)
         cv2.waitKey(0)
 
+
 def match_boat():
     img1_path = 'data/train/NOF/img_00008.jpg'
     img2_path = 'data/train/NOF/img_00011.jpg'
